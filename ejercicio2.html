@@ -4,20 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon en la pestaña web con la imagen de Marvel Comics.-->
     <link rel="icon" href="img/logo.png" type="image/png">
+    <!--Nombre de la pestaña web: "Mapeado Imágenes".-->
     <title>Mapeado Imágenes</title>
 </head>
 
+<!--Color de fondo de la web: #d9f18e. Todo centrado.-->
 <body bgcolor="#d9f18e" align="center">
 
+    <!--Título de nivel 1 en tipografía Arial, tamaño 80px y color blanco.-->
     <h1><font face="Arial" color="white" size="80px">Marvel Legacy</font></h1>
 
+    <!--Título de nivel 2 sin ningún tipo de modificación.-->
     <h2>Mapa interactivo de los personajes más importantes del Universo Marvel</h2>
 
     <p>Pincha sobre los personajes que aparecen en el siguiente listado, y verás información detallada sobre cada uno de ellos:</p>
 
+    <!--Inserción de la imagen.-->
     <img src="img/Marvel-Legacy-personajes.jpg" usemap="#marvel">
     <map name="marvel">
+        <!--Mapeado de los personajes. Al pinchar en sus caras, seremos redirigidos
+            a sus respectivas páginas de Wikipedia.-->
         <area shape="poly"
             coords="126,36, 186,36, 200,94, 190,128 162,152, 129,129, 119,83"
             href="https://es.wikipedia.org/wiki/Deadpool" target="_blank">
@@ -41,20 +49,32 @@
             href="https://en.wikipedia.org/wiki/Star-Lord" target="_blank">
     </map>
 
-    <h2><font face="Arial" color="white" size="32px">Tabla de Personajes</font></h2>
+    <!--Título de nivel 2 en tipografía Verdana, tamaño 32px y color blanco.-->
+    <h2><font face="Verdana" color="white" size="32px">Tabla de Personajes</font></h2>
 
-    <ul>
-        <li><font color="red" size="14px">Deadpool</font></li>
-        <li><font color="gold" size="14px">Ironman</font></li>
-        <li><font color="green" size="14px">Hulk</font></li>
-        <li><font color="black" size="14px">Spiderman Negro (Miles Morales)</font></li>
-        <li><font color="blue" size="14px">Capitán América</font></li>
-        <li><font color="orange" size="14">Jane Foster (Thor Mujer)</font></li>
-        <li><font color="#f18ebb" size="14">Star-Lord (Guardianes de las Galaxias)</font></li>
+    <!--Lista desordenada con icono de cuadrado relleno de color rojo.-->
+    <ul type="square">
+        <font color="#ff0080">
+            <!--Nombres de los personajes en tipografía Verdana,
+                tamaño 14px y colores según sus trajes.-->
+            <li><font face="Verdana" color="red" size="14px">Deadpool</font></li>
+            <li><font face="Verdana" color="gold" size="14px">Ironman</font></li>
+            <li><font face="Verdana" color="green" size="14px">Hulk</font></li>
+            <li><font face="Verdana" color="black" size="14px">Spiderman Negro (Miles Morales)</font></li>
+            <li><font face="Verdana" color="blue" size="14px">Capitán América</font></li>
+            <li><font face="Verdana" color="orange" size="14">Jane Foster (Thor Mujer)</font></li>
+            <li><font face="Verdana" color="#f18ebb" size="14">Star-Lord (Guardianes de las Galaxias)</font></li>
+        </font>
+    </ul>
 
-        <p align="center">
-            Si quieres saber más sobre tus personajes, pincha en el siguiente<a href="mailto:raul.rodriguez@proeducaglobal.com">link</a>.
-        </p>
+    <p>
+        Si quieres saber más sobre tus personajes, pincha en el siguiente
+        <!--Link al correo raul.rodriguez@proeducaglobal.com.-->
+        <a href="mailto:raul.rodriguez@proeducaglobal.com">
+            link
+        </a>
+        .
+    </p>
 
 </body>
 </html>
